@@ -6,7 +6,9 @@ public class MyPush : MonoBehaviour
 {
     Rigidbody2D rb;
     Vector2 direction;
+
     public float force;
+    public bool isRelative = false;
 
     void Start()
     {
@@ -15,11 +17,18 @@ public class MyPush : MonoBehaviour
 
     void Update()
     {
-        //float hor = Input.GetAxis("Horizontal");
-        float ver = Input.GetAxis("Vertical");
+        float hor = Input.GetAxis("Horizontal");
+        // float ver = Input.GetAxis("Vertical");
 
-        direction = new Vector2(0, ver);
+        direction = new Vector2(hor, 0);
 
-        rb.AddForce(direction * force);
+        if (!isRelative)
+        {
+            rb.AddForce(direction * force);
+        }
+        else
+        {
+            rb.AddRelativeForce(direction * force);
+        }
     }
 }
