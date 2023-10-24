@@ -17,10 +17,10 @@ public class MyPush : MonoBehaviour
 
     void Update()
     {
-        float hor = Input.GetAxis("Horizontal");
-        // float ver = Input.GetAxis("Vertical");
+        //float hor = Input.GetAxis("Horizontal");
+        float ver = Input.GetAxis("Vertical");
 
-        direction = new Vector2(hor, 0);
+        direction = new Vector2(0, ver);
 
         if (!isRelative)
         {
