@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Aula_23_10;
 public enum TipoColetavel
 {
     LIVE,
@@ -17,10 +17,10 @@ public class MyCollectable : MonoBehaviour
     {
         switch (tipo) {
             case TipoColetavel.SCORE:
-                GameManager.addScore(value);
+                Aula_23_10.GameManager.AddScore(value);
                 break;
             case TipoColetavel.LIVE:
-                GameManager.addLive(value);
+                // Aula_23_10.GameManager.AddLive(value);
                 break;
         }
         

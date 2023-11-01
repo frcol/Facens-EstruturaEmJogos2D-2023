@@ -38,12 +38,4 @@ public class SpanwManager : MonoBehaviour
         timeToSpawn = Random.Range(minTime, maxTime);
         Invoke("IntancieObjeto", timeToSpawn);
     }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            
-        }
-    }
 }

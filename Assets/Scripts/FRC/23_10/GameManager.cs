@@ -7,10 +7,13 @@ namespace Aula_23_10
 {
     public class GameManager : MonoBehaviour
     {
-        public int score = 0;
+        public static UIManager uiManager;
+        public static int score = 0;
 
         private void Start()
         {
+            uiManager = FindAnyObjectByType<UIManager>();
+
             score = PlayerPrefs.GetInt("Score");
             print("Score Inicial: " + score);
         }
@@ -34,9 +37,10 @@ namespace Aula_23_10
             }
         }
 
-        void AddScore(int value)
+        public static void AddScore(int value)
         {
             score += value;
+            uiManager.ChangeScore(score);
         }
 
         private void OnApplicationQuit()
