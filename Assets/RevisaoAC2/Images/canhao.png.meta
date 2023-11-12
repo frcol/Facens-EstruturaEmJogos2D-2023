@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 7cc45fa43cbf3d940a5d15739af19bd1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: canhao_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 234
+        height: 408
+      alignment: 9
+      pivot: {x: 0.5069481, y: 0.13737226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57, y: -192}
+        - {x: 65, y: -186}
+        - {x: 81, y: -170}
+        - {x: 88, y: -161}
+        - {x: 95, y: -151}
+        - {x: 103, y: -135}
+        - {x: 105, y: -134}
+        - {x: 109, y: -125}
+        - {x: 114, y: -119}
+        - {x: 116, y: -116}
+        - {x: 116, y: -114}
+        - {x: 115, y: -106}
+        - {x: 117, y: -102}
+        - {x: 117, y: -74}
+        - {x: 116, y: -71}
+        - {x: 114, y: -69}
+        - {x: 114, y: -58}
+        - {x: 113, y: -57}
+        - {x: 113, y: -28}
+        - {x: 112, y: -27}
+        - {x: 112, y: -11}
+        - {x: 111, y: -1}
+        - {x: 109, y: 3}
+        - {x: 109, y: 14}
+        - {x: 108, y: 15}
+        - {x: 107, y: 33}
+        - {x: 105, y: 49}
+        - {x: 102, y: 70}
+        - {x: 100, y: 82}
+        - {x: 99, y: 87}
+        - {x: 97, y: 98}
+        - {x: 95, y: 108}
+        - {x: 90, y: 130}
+        - {x: 82, y: 160}
+        - {x: 80, y: 166}
+        - {x: 77, y: 174}
+        - {x: 75, y: 179}
+        - {x: 67, y: 188}
+        - {x: 62, y: 191}
+        - {x: 53, y: 195}
+        - {x: 45, y: 198}
+        - {x: 38, y: 200}
+        - {x: 30, y: 202}
+        - {x: 25, y: 203}
+        - {x: 18, y: 204}
+        - {x: -38, y: 204}
+        - {x: -44, y: 203}
+        - {x: -48, y: 202}
+        - {x: -57, y: 199}
+        - {x: -64, y: 196}
+        - {x: -70, y: 192}
+        - {x: -73, y: 188}
+        - {x: -75, y: 185}
+        - {x: -78, y: 171}
+        - {x: -82, y: 151}
+        - {x: -91, y: 105}
+        - {x: -95, y: 84}
+        - {x: -100, y: 58}
+        - {x: -100, y: 54}
+        - {x: -104, y: 58}
+        - {x: -112, y: 65}
+        - {x: -116, y: 68}
+        - {x: -117, y: 68}
+        - {x: -117, y: 61}
+        - {x: -102, y: 47}
+        - {x: -103, y: 37}
+        - {x: -104, y: 30}
+        - {x: -105, y: 22}
+        - {x: -106, y: 13}
+        - {x: -106, y: -5}
+        - {x: -107, y: -6}
+        - {x: -108, y: -20}
+        - {x: -108, y: -80}
+        - {x: -107, y: -92}
+        - {x: -106, y: -101}
+        - {x: -104, y: -114}
+        - {x: -102, y: -124}
+        - {x: -100, y: -132}
+        - {x: -96, y: -144}
+        - {x: -84, y: -169}
+        - {x: -81, y: -172}
+        - {x: -76, y: -178}
+        - {x: -70, y: -184}
+        - {x: -64, y: -189}
+        - {x: -62, y: -191}
+        - {x: -51, y: -196}
+        - {x: -41, y: -200}
+        - {x: -30, y: -204}
+        - {x: 33, y: -204}
+        - {x: 43, y: -200}
+        - {x: 50, y: -197}
+      - - {x: 103, y: -152}
+        - {x: 68, y: -192}
+        - {x: 63, y: -202}
+        - {x: 95, y: -165}
+        - {x: 117, y: -134}
+        - {x: 114, y: -135}
+      - - {x: 104, y: -146}
+        - {x: 107, y: -145}
+        - {x: 107, y: -142}
+        - {x: 104, y: -141}
+        - {x: 102, y: -143}
+      physicsShape: []
+      tessellationDetail: 0.4
+      bones: []
+      spriteID: 0b51842db993a2646abd04b53a5d569a
+      internalID: 1996679830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canhao_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 361
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eeda870e2721c488dd3a0e17ec7389
+      internalID: 1337607245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: canhao_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 321
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 107}
+        - {x: -160.5, y: -54}
+        - {x: -160.5, y: -106}
+        - {x: -157.5, y: -107}
+        - {x: 160.5, y: -107}
+        - {x: 160.5, y: -87}
+        - {x: 144.5, y: -30}
+        - {x: 97.5, y: 52}
+        - {x: 27.5, y: 107}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbaabf94926ce84fb9023b886065f59
+      internalID: 478912374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      canhao_0: 1996679830
+      canhao_1: 1337607245
+      canhao_2: 478912374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,6 +6,7 @@ public class Shooter : MonoBehaviour
 {
     public GameObject projectile;
     public float speed;
+    public AudioClip clip;
 
     private void Update()
     {

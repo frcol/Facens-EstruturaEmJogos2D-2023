@@ -19,5 +19,6 @@ public class MyRotate : MonoBehaviour
         hor = Input.GetAxis("Horizontal");
 
         rb.AddTorque(hor * torque * -1);
+            
     }
 }
